@@ -1,7 +1,6 @@
 # Stefan Schlicker
 
-My Personal Website v1.0.0
-this is a mobile only website
+My Personal Website v1.0.0 - this is a mobile only website
 
 ## Code basis
 
