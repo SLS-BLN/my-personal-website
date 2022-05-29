@@ -17,27 +17,42 @@
     <header class="header">
       <nav class="navigation">
         <ul class="navigation__links">
-          <li><a href="#home" class="navigation__links--item">Home</a></li>
-          <li><a href="#about" class="navigation__links--item">About</a></li>
-          <li>
-            <a href="#projects" class="navigation__links--item">Projekte</a>
+          <li class="navigation__links--item"><a href="#home">Home</a></li>
+          <li class="navigation__links--item">
+            <a href="#about">Über mich</a>
           </li>
-          <li>
-            <a href="#contact" class="navigation__links--item">Kontakt</a>
+          <li class="navigation__links--item">
+            <a href="#projects">Projekte</a>
+          </li>
+          <li class="navigation__links--item">
+            <a href="#contact">Kontakt</a>
           </li>
         </ul>
       </nav>
-      <p class="name">Stefan Schlicker</p>
-      <img src="images/Stefan.png" alt="Portrait Stefan Schlicker" />
-
-      <h1 class="heading-primary header__heading">
-        <span class="heading-primary__top">Clear</span>
-        <span class="heading-primary__down">Mind,</span>
-        <span class="heading-primary__top">Clean</span>
-        <span class="heading-primary__down">Code</span>
-      </h1>
-      <button class="btn btn__cta">Contact Me</button>
-      <button class="btn">Projects</button>
+      <section class="hero">
+        <p class="hero__name">Stefan Schlicker</p>
+        <div class="hero__image-box">
+          <div class="hero__image-box--text">
+            <p class="jobtitle"><strong>Web Developer</strong></p>
+            <p class="location">Berlin</p>
+          </div>
+          <img
+            class="hero__image-box--image"
+            src="images/Stefan.png"
+            alt="Portrait Stefan Schlicker"
+          />
+        </div>
+        <h1 class="heading-primary header__heading">
+          <span class="heading-primary__top">Clear</span>
+          <span class="heading-primary__down">Mind,</span>
+          <span class="heading-primary__top">Clean</span>
+          <span class="heading-primary__down">Code</span>
+        </h1>
+        <div class="hero__btns">
+          <button class="btn btn__cta">Kontakt</button>
+          <button class="btn">Projekte</button>
+        </div>
+      </section>
     </header>
     <main>
       <section class="skills">
