@@ -1,5 +1,10 @@
 @import "/styles/base.css";
 
+@import "/styles/sections/about.css";
+@import "/styles/sections/benefits.css";
+@import "/styles/sections/projects.css";
+@import "/styles/sections/skills.css";
+
 @import "/styles/components/buttons.css";
 @import "/styles/components/header.css";
 @import "/styles/components/typography.css";
