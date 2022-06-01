@@ -1,0 +1,18 @@
+.hero__btns {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #ffec99;
+  color: #0b0b0b;
+  padding: 1.5rem 2rem;
+  width: 15rem;
+  border: none;
+  border-radius: 5px;
+  margin: 2rem 1rem 6rem;
+}
+
+.btn__cta {
+  background-color: #fcc419;
+}
