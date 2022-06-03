@@ -13,5 +13,151 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="navigation" role="navigation" aria-label="Main">
+        <ul class="navigation__links">
+          <li class="navigation__links--item"><a href="#home">Home</a></li>
+          <li class="navigation__links--item">
+            <a href="#about">Über mich</a>
+          </li>
+          <li class="navigation__links--item">
+            <a href="#projects">Projekte</a>
+          </li>
+          <li class="navigation__links--item">
+            <a href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <p class="hero__name">Stefan Schlicker</p>
+        <div class="hero__image-box">
+          <div class="hero__image-box--text">
+            <p class="jobtitle"><strong>Web Developer</strong></p>
+            <p class="location">Berlin</p>
+          </div>
+          <img
+            class="hero__image-box--image"
+            src="images/Stefan.png"
+            alt="Portrait Stefan Schlicker"
+          />
+        </div>
+        <h1 class="heading-primary header__heading">
+          <span class="heading-primary__top">Clear</span>
+          <span class="heading-primary__down">Mind,</span>
+          <span class="heading-primary__top">Clean</span>
+          <span class="heading-primary__down">Code</span>
+        </h1>
+        <div class="hero__btns">
+          <button class="btn btn__cta">Kontakt</button>
+          <button class="btn">Projekte</button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="skills">
+        <ul class="cloud" aria-label="Webdev tag cloud">
+          <li data-weight="9">HTML</li>
+          <li data-weight="13">CSS</li>
+          <li data-weight="21">JavaScript</li>
+          <li data-weight="12">MongoDB</li>
+          <li data-weight="8">Mongoose</li>
+          <li data-weight="18">4DX</li>
+          <li data-weight="11">OKR</li>
+          <li data-weight="17">Agile</li>
+          <li data-weight="8">Jira Software</li>
+          <li data-weight="7">Trello</li>
+          <li data-weight="13">JAMStack</li>
+          <li data-weight="7">BEM</li>
+          <li data-weight="4">SASS</li>
+          <li data-weight="10">SCSS</li>
+          <li data-weight="14">A11y</li>
+          <li data-weight="6">npm</li>
+          <li data-weight="20">React</li>
+          <li data-weight="8">git</li>
+          <li data-weight="10">Github</li>
+          <li data-weight="14">UX</li>
+          <li data-weight="8">Figma</li>
+        </ul>
+      </section>
+      <section id="about" class="about">
+        <h2 class="heading-secondary">Meine Stärken</h2>
+        <p class="about__text"></p>
+        Meine besondere Stärke liegt darin, den Dingen auf den Grund zu gehen.
+        Mit der erstbesten Antwort gebe ich mich selten zufrieden. Nur so komme
+        ich zum Grund eines Problems. Web Development ist für mich nicht Code zu
+        schreiben, sondern eine Lösung für den Kunden zu finden. Warum ist das
+        so? Was kann ich tun?
+      </section>
+      <section class="benefits">
+        <article class="benefits__box benefits__box-1">
+          <h3 class="tertiary-heading">Kreativität</h3>
+          <p class="benefits__box--text">
+            Kreative Lösungen zu finden ist mein Metier; es macht mir einfach
+            Spass, Neues auszuprobieren und alte Pfade zu verlassen.
+          </p>
+        </article>
+        <article class="benefits__box benefits__box-2">
+          <h3 class="tertiary-heading">Growth Mindset</h3>
+          <p class="benefits__box--text">
+            Wissen veraltet schnell, deshalb lerne und lese ich viel. An das
+            Super-Talent, das alles kann, glaube ich nicht - wenn etwas leicht
+            aussieht, steckt dahinter harte Arbeit.
+          </p>
+        </article>
+        <article class="benefits__box benefits__box-3">
+          <h3 class="tertiary-heading">Resilenz</h3>
+          <p class="benefits__box--text">
+            Fehler und Niederlagen gehören dazu, auch wenn sie schmerzen;
+            Aufgeben ist keine Option. Fehler sind für micht erst recht ein
+            Ansporn, das Ziel zu erreichen.
+          </p>
+        </article>
+      </section>
+      <section id="projects" class="projects">
+        <img
+          src="images/Hero_600px_HQ.jpg"
+          alt="Notebook mit Schnittprogramm Final Cut"
+          class="projects__img"
+        />
+        <h2 class="secondary-heading">Meine Projekte</h2>
+        <p class="projects__text">
+          Bücher lesen oder Onlinekurse sind wirklich eine gute Quelle, um Web
+          Development zu verstehen. Aber um es wirklich zu lernen, muss man sich
+          die Hände schmutzig machen.
+        </p>
+        <p class="projects__text">
+          Deshalb arbeite ich an einer Website zum Thema "Marketing mit Video".
+          Kann sein, dass daraus auch ein Startup wird. Es geht mir aber vor
+          allem darum, die verschiedenen Techniken zu testen.
+        </p>
+        <p class="projects__text">
+          Ein Bootcamp der
+          <a href="http://www.neuefische.de">neuen fische</a> soll mir nun den
+          letzten Schliff geben - insbesondere bei agilen Methoden (Clean code,
+          Pair Programing, Testing), Barrierfreiheit (A11y) und der Arbeit im
+          Team.
+        </p>
+        <button class="btn btn__cta">Request my CV</button>
+      </section>
+      <section class="connect" id="contact">
+        <h2 class="secondary-heading">Get Connected</h2>
+        <ul class="connect__list">
+          <li class="connect__list--item">
+            <a href="https://www.linkedin.com/in/stefan-schlicker/">Linkedin</a>
+          </li>
+          <li class="connect__list--item"><a href="">Xing</a></li>
+          <li class="connect__list--item">
+            <a href="https://github.com/SLS-BLN">Github</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer" aria-label="Footer">
+      <ul class="footer__nav">
+        <li class="footer__nav--item"><a href="#">Home</a></li>
+        <li class="footer__nav--item"><a href="#">Impressum</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>

@@ -1,37 +1,10 @@
-/* global reset */
+@import "/styles/base.css";
 
-html {
-  box-sizing: border-box;
+@import "/styles/sections/about.css";
+@import "/styles/sections/benefits.css";
+@import "/styles/sections/projects.css";
+@import "/styles/sections/skills.css";
 
-  /* phone - 1rem = 8px; 8/16 = 50% */
-  /* desktop - 1rem = 10px; 10px/16px = 62.5% */
-  font-size: 50%;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-}
-
-/* typography */
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #777;
-  padding: 3rem;
-  font-size: 1.6rem;
-}
-
-h1 {
-  font-size: 2.4rem;
-}
-
-/* float layout */
-.row {
-  max-width: 114rem;
-  margin: 0 auto;
-}
+@import "/styles/components/buttons.css";
+@import "/styles/components/header.css";
+@import "/styles/components/typography.css";
